@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#8080FF"
+        android:height="80dp"
+        android:shadowColor="#E7E7E7"
+        android:text="Giới Thiệu"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="#66CDAA"
+        android:height="80dp"
+        android:text="Đề Thi"
+        android:width="160dp" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="16dp"
+        android:background="#008000"
+        android:height="80dp"
+        android:text="Quá Trình Học"
+        android:width="160dp" />
+
+    <Button
+        android:id="@+id/btnDeThi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button02"
+        android:layout_alignBottom="@+id/Button02"
+        android:layout_alignRight="@+id/Button01"
+        android:background="#FF00FF"
+        android:height="80dp"
+        android:text="Cập nhật"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button05"
+        android:layout_alignBottom="@+id/Button05"
+        android:layout_alignLeft="@+id/Button02"
+        android:background="#5F9EA0"
+        android:height="80dp"
+        android:text="Liên Hệ"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_alignRight="@+id/btnDeThi"
+        android:layout_below="@+id/Button02"
+        android:layout_marginTop="16dp"
+        android:background="#DC143C"
+        android:height="80dp"
+        android:text="Thoát"
+        android:width="160dp" />
+
+</RelativeLayout>

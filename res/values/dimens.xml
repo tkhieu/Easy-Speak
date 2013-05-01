@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Header1">30px</dimen>
+    <dimen name="content">25px</dimen>
+    <dimen name="Header2">27px</dimen>
+    <dimen name="name">20px</dimen>
+</resources>

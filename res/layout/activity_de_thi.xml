@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:textSize="20sp"
+    tools:context=".DeThiActivity" >
+
+    <ListView
+        android:id="@+id/listViewDeThi"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        tools:listitem="@android:layout/simple_list_item_1" >
+
+    </ListView>
+
+</RelativeLayout>
